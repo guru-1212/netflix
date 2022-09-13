@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h2 {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    width: 97%;
+    border-radius: 35px;
+    margin-left: 0%;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: double;
+    text-shadow: 2px 2px 2px grey;
+}
+li {
+  list-style: none;
+}
+nav {
+  justify-content: space-between;
+  width: 90%;
+}
+ul img {
+  width: 200px;
+  height: 200px;
+  margin-left: 35px;
+  border: 2px solid blue;
+  padding: 15px;
+  border-radius: 246px;
+  justify-content: space-between;
+  /* box-shadow: 2px 2px 10px green; */
+  border: none;
+}
+ul img:hover {
+ 
+  transform:scale(1.07);
+  box-shadow: 3px 3px 10px grey;
+  /* transition-delay: ; */
+  transition:3s;
+  /* width: 210px;
+  height: 210px; */
+}
+img:hover {
+  box-shadow: 3px 3px 10px grey;
+  cursor: pointer;
+  
+  /* width: 400px;
+    height: 400px; */
+}
+ul p {
+  text-align: center;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  color: black;
+  margin-top: -15;
+  margin-left: 37px;
+  margn-top: 10px;
+  background-color: whte;
+  border-radius: 11px;
+}
+ul p:hover {
+  box-shadow: 2px 2px 10px green;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+}
+.mensimages img {
+  width: 150px;
+  height: 150px;
+  margin-left: 15px;
+  margin-top: 15px;
+  padding: 10px;
+}
+.girlsimages img {
+  width: 150px;
+  height: 150px;
+  margin-left: 15px;
+  margin-top: 15px;
+  padding: 10px;
+}
+.kidsimages img {
+  width: 150px;
+  height: 150px;
+  margin-left: 15px;
+  margin-top: 15px;
+  padding: 10px;
+}
+
+.mensimages {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+}
+.girlsimages{
+    display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+}
+.kidsimages {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+}
+main {
+  height: 300px;
+  overflow: hidden;
+  overflow: auto;
+}
+body{
+  background-image: linear-gradient(orange red);
+}
+#mens{
+ 
+  background-color: white;
+}
+#girl{
+  /* background-color: greenyellow; */
+}
+#mens:target{
+ /* background-color: orange; */
+}
+#girl{
+    margin-top: 10000px;
+}
+#kid{
+    margin-top: 10000px;
+}
